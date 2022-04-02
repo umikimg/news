@@ -1,0 +1,102 @@
+/*News*/
+
+main {
+    background-color: #fff56f;
+    padding: 30px 0 0 15px;
+}
+
+.News {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 98vw;
+    height: 99vh; 
+    overflow-x: hidden;
+}
+
+.NewsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 23vw;
+    height: 47vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    border: 1.5px solid #ead39c;
+    background-color: rgba(255, 255, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ulofnews {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.preview {
+    width: 23vw;
+    height: 20vh;
+}
+
+.NewsBlock:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.conspectus {
+    margin-top: 5px;
+}
+
+.description {
+    margin-top: 5px;
+    text-overflow: ellipsis;
+}
+
+
+/*Offer news*/
+
+.OfferNews {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 150vh;
+}
+
+#prev {
+    width:65vw;
+}
+
+#descr {
+    height: 20vh;
+    width: 98vw;
+}
+
+#offer {
+    height: 50vh;
+    width: 98vw;
+}
+
+button.sumbit {
+    width: 75px;
+    margin-top: 10px;
+}
+
+/*cooperation*/
+
+.cooperation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100vh;
+    color: #000000;
+}
+
+.cooperL {
+    color: rgb(68, 70, 207) !important;
+}

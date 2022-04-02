@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #301b28;
+    height: 100px;
+}
+
+.switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.switchers {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px #b6452c;
+    margin: 10px;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.notpressed:hover{
+    transform: scale(1.05,1.05);
+    background-color: #b6452c;
+    color: #301b28;
+}
+
+.pressed {
+    background-color: #572825;
+    transform: scale(1.07,1.07);
+}

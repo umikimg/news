@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Offer news</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/init.css">
+	<link rel="stylesheet" href="css/page/style.css">
+	<link rel="stylesheet" href="css/page/header.css">
+	<link rel="stylesheet" href="css/page/main.css">
+	<link rel="stylesheet" href="css/page/footer.css">
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="https://pngpress.com/wp-content/uploads/2020/04/Logo-Wedding-Price-Service.png">
+		<div class="switcher">
+			<a href="./news.html" class="switchers notpressed">News</a>
+			<a href="./offer.html" class="switchers pressed">Offer news</a>
+			<a href="./cooperation.html" class="switchers notpressed">Cooperation</a>
+			<a href="./authorization.html" class="switchers notpressed">Registration</a>
+		</div>
+	</header>
+
+    <main>
+        <h1>Offer your news</h1>
+        <form class="OfferNews" action="#">
+            <label for="email">Enter your email here</label>
+            <input type="email" name="email" id="email" placeholder="1234@site.com" maxlength="50" required>
+
+            <label for="name">Enter your name here</label>
+            <input type="text" name="name" id="name" placeholder="Ivan Ivanov" maxlength="22" required>
+
+			<label for="consp">Enter conspectus of your news(max 20 symbols)</label>
+			<input type="text" name="consp" id="consp" placeholder="Cool conspectus" maxlength="20" required>
+
+			<label for="prev">Enter link on img preview(max 100 symbols)</label>
+			<input type="text" name="prev" id="prev" placeholder="http://coolimg.org/preview.png" maxlength="100" required>
+
+			<label for="descr">Enter description of your news</label>
+			<input type="text" name="descr" id="descr" placeholder="today..." maxlength="100" required>
+
+            <label for="offer">Enter your offer here(max 1000 symbols, if your text have more symbols than 1000,you can send link to the source)</label>
+            <input type="text" name="offer" id="offer" placeholder="today..." maxlength="1000" required>
+            
+
+            <button class="sumbit">Sumbit</button>
+        </form>
+    </main>
+
+    <footer>
+		<p>Copyright 2008-2022 Umi investment news - all rights reserved.</p>
+	</footer>
+</body>
+</html>
